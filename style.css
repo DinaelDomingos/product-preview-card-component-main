@@ -28,6 +28,8 @@ body {
     height: 100%;
     background-image: url(images/image-product-desktop.jpg); 
     background-size: cover;
+    border-top-left-radius: 0.63rem;
+    border-bottom-left-radius: 0.63rem;
 }
 .card__content {
     display: flex;
@@ -35,6 +37,8 @@ body {
     justify-content: space-between;
     width: 50%;
     height: 100%;
+    border-top-right-radius: 0.63rem;
+    border-bottom-right-radius: 0.63rem;
     background-color: var(--white);      
 }
 
