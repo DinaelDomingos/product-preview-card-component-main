@@ -129,7 +129,7 @@ main a:hover {
     color: hsl(228, 45%, 44%); 
 }
 
-@media screen and(max-width:400px) {
+@media (max-width:400px) {
     .card {
         display: flex;
         flex-direction: column;
