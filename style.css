@@ -17,29 +17,31 @@ body {
     background-color: var(--cream);    
 }
 .card {
-    margin: 10.31rem auto 11.56rem;
+    margin: 28px auto;
     display: flex;
-    place-items: center;
-    width: 600px;
-    height: 450px;
-    border-radius: 0.63rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    height: 90vh;
+    border-radius: 10px;
 }
 .card__image {
-    width: 50%;
+    width: 100%;
     height: 100%;
-    background-image: url(images/image-product-desktop.jpg); 
+    background-image: url(images/image-product-mobile.jpg); 
     background-size: cover;
-    border-top-left-radius: 0.63rem;
-    border-bottom-left-radius: 0.63rem;
+    /* border-top-left-radius: 0.63rem;
+    border-bottom-left-radius: 0.63rem; */
 }
 .card__content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 50%;
+    width: 100%;
     height: 100%;
-    border-top-right-radius: 0.63rem;
-    border-bottom-right-radius: 0.63rem;
+    /* border-top-right-radius: 0.63rem;
+    border-bottom-right-radius: 0.63rem; */
     background-color: var(--white);      
 }
 
