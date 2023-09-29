@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap');
 
 :root {
-    --darkCyan: #3d8168;
-    --veryDarkCyan: #1a4032;
-    --cream: #f2ebe3;
-    --veryDarkBlue: #1c232b;
-    --darkGrayishBlue: #6c7289;
-    --white: #ffffff;
+    --darkCyan: #3D8168;
+    --veryDarkCyan: #1A4032;
+    --cream: #F2EAE2;
+    --veryDarkBlue: #1C232B;
+    --darkGrayishBlue: #6C7289;
+    --white: #FFFFFF;
 }
 * {
     margin: 0;
@@ -129,7 +129,7 @@ main a:hover {
     color: hsl(228, 45%, 44%); 
 }
 
-@media screen and (max-width:400px) {
+/* @media screen and (max-width:400px) {
     .card {
         display: flex;
         flex-direction: column;
@@ -156,4 +156,4 @@ main a:hover {
     main a {
         width: 100%;
     }
-}
+} */
