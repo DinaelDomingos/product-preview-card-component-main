@@ -16,7 +16,7 @@ body {
     box-sizing: border-box;
     background-color: var(--cream);    
 }
-.card {
+.main {
     margin: 28px auto;
     display: flex;
     flex-direction: column;
@@ -26,15 +26,15 @@ body {
     height: 72.5vh;
     border-radius: 10px;
 }
-.card__image {
+.image {
     width: 100%;
-    height: 100%;
+    height: 75%;
     background-image: url(images/image-product-mobile.jpg); 
     background-size: cover;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-.card__content {
+.content {
     width: 100%;
     height: 100%;
     border-bottom-left-radius: 10px;
@@ -52,11 +52,8 @@ header {
     color: var(--darkGrayishBlue);
 }
 
-main {
+.content h1 {
     padding: 0 24px;
-}
-
-main h1 {
     font-family: 'Fraunces';
     font-weight: 700;
     font-size: 2rem;
@@ -64,7 +61,8 @@ main h1 {
     color: var(--veryDarkBlue);
 }
 
-main p {
+.content>p {
+    padding: 16px 24px 24px;
     font-family: 'Montserrat';
     font-weight: 500;
     font-size: 14px;
@@ -72,14 +70,15 @@ main p {
     color: var(--darkGrayishBlue);
 }
 
-.card__content__values {
+.content__values {
+    padding: 0 24px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 1.19rem;
 }
 
-.card__content__values__on-sale {
+.content__values-onsale {
     font-family: 'Fraunces';
     font-weight: 700;
     font-size: 2rem;
@@ -87,7 +86,7 @@ main p {
     color: var(--darkCyan);
 }
 
-.card__content__values__normal {
+.content__values-normal {
     font-family: 'Montserrat';
     font-weight: 500;
     font-size: 0.81rem;
@@ -95,11 +94,12 @@ main p {
     text-decoration-line: line-through;
 }
 
-main a {
+.main a {
     display: flex;
     justify-content: center;
     gap: 0.75rem;
-    width: 14.75rem;
+    width: 90%;
+    margin: 24px auto;
     padding: 0.94rem 0;
     border-radius: 0.5rem;
     text-align: center;
