@@ -33,10 +33,10 @@ O objetivo principal foi criar um componente de cartão responsivo com design ad
 ## **Capturas de Tela**
 
 - **Mobile View**:  
-  ![Captura de Tela - Mobile](/product-preview-card-component-main/product-preview-card-component-main/ScreenShot%20-%20Projeto_%20Product%20preview%20card%20component%20-%20Mobile.png)
+  ![Captura de Tela - Mobile](/ScreenShot%20-%20Projeto_%20Product%20preview%20card%20component%20-%20Mobile.png)
 
 - **Desktop View**:  
-  ![Captura de Tela - Desktop](/product-preview-card-component-main/product-preview-card-component-main/ScreenShot%20-%20Projeto_%20Product%20preview%20card%20component%20-%20Desktop.png)
+  ![Captura de Tela - Desktop](/ScreenShot%20-%20Projeto_%20Product%20preview%20card%20component%20-%20Desktop.png)
 
 ---
 
@@ -75,6 +75,7 @@ Este desafio reforçou a importância de um bom planejamento de layout e a aplic
     flex-direction: row;
   }
 }
+```
 
 ### **Próximos Passos**
 
